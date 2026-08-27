@@ -1,0 +1,7 @@
+@media (max-width: 480px){
+
+    .section5-2 .box {
+        grid-template-columns: none;
+        text-align: left;
+    }
+}

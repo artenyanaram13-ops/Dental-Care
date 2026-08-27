@@ -1,0 +1,21 @@
+@media (max-width: 1024px){
+.section12 .box{
+        padding: 90px;
+
+    }
+}
+
+
+@media (max-width: 480px){
+
+    
+    
+    .section12 .box{
+        text-align: left;
+        
+    }
+
+      .section12 .box a{
+        display: none;
+      }
+}

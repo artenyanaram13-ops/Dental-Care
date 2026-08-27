@@ -1,0 +1,22 @@
+.hero {
+    min-height: 700px;
+    background-image: url(/images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero .box {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    flex-wrap: wrap;
+}

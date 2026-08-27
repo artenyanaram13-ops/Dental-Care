@@ -1,0 +1,46 @@
+ 
+ 
+@media (max-width: 768px) {
+
+    
+    .section3 .box .right{
+        width: 0;
+    }
+    .section3 .box .left .text-big{
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        
+    }
+}
+
+@media (max-width: 480px){
+      .section3 .box {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .section3 .box  {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .section3 .box  .left,
+    .section3 .box  .right {
+        width: 100%;
+        height: auto;
+          gap: 49px;
+    }
+    .section3 .box  .right img{
+    width: 100%;
+    height: auto;
+    }
+    .section3 .box  .left {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+
+
+    
+@media (max-width: 480px){
+ .header .box .nav a{
+        display: none;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+}

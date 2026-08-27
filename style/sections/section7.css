@@ -1,0 +1,52 @@
+.section7 {
+    max-width: 1720px;
+    height: 778px;
+    background-image: url(/images/background2.png);
+    margin: 0 auto;
+}
+
+.section7 .box {
+    max-width: 1720px;
+    height: 778px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 120px;
+}
+
+.section7 .box .item {
+    width: 1152px;
+    height: 538px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.524);
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    padding: 80px;
+    border-top-left-radius: 20px;
+}
+
+.section7 .box .item .right {
+    display: flex;
+    width: 456px;
+    height: 378px;
+}
+.section7 .box .item .left img{
+    width: 100%;
+}
+.section7 .box .item .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 456px;
+    height: 378px;
+    color: var(--white);
+    list-style-image: url(/images/chek.png);
+}
+
+.section7 .box .item .left .text2 {
+    border-left: 3px solid var(--pure-yellow);
+}
+
+

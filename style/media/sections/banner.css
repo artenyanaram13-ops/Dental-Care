@@ -1,0 +1,13 @@
+@media (max-width: 768px){
+    .hero{
+    background-position: center right;}
+
+      .hero .text{
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px){
+
+}

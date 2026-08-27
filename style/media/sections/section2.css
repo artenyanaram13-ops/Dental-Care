@@ -1,0 +1,42 @@
+
+@media (max-width: 768px) {
+.section2 .box .left {
+        width: 50%;
+    padding: 10px;
+}
+.section2 .box  .right{  
+    width: 50%;
+    padding: 10px;
+}
+}
+
+
+
+@media (max-width: 480px){
+     .section2 .box {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .section2 .box  {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .section2 .box  .left,
+    .section2 .box  .right {
+        width: 100%;
+        height: auto;
+          gap: 49px;
+    }
+    .section2 .box  .right img{
+    width: auto;
+    height: auto;
+    }
+    .section2 .box  .left {
+        margin-bottom: 30px;
+    }
+}

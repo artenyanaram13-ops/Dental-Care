@@ -1,0 +1,52 @@
+@media (max-width: 480px){
+
+   .section8 .box .right img{
+        width: 100%;
+    height: 300px;
+    }
+}
+
+
+
+@media (max-width: 768px){
+
+
+    .section8, 
+    .section8 .box {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .section8 .box  {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .section8 .box  .left,
+    .section8 .box  .right {
+        width: 100%;
+        height: auto;
+          gap: 49px;
+    }
+    .section8 .box  .right img{
+    width: 100%;
+    height: auto;
+    }
+    .section8 .box  .left {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+@media (max-width: 1024px){
+.section8{
+    padding-left: 12px;
+}
+
+}

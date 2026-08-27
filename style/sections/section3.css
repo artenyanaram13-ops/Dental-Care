@@ -1,0 +1,28 @@
+    
+    .section3 .box {
+        max-width: 1200px;
+        min-height: 700px;
+        display: flex;
+        justify-content: space-between;
+        padding: 32px;
+        margin: 0 auto;
+
+    }
+
+    .section3 .box .right {
+        max-width: 590px;
+        min-height: 459px;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;  
+
+    }   
+
+
+
+    .section3 .box .left img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+

@@ -1,0 +1,27 @@
+
+.section6-2 .box {
+    max-width: 1200px;
+    min-height: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    margin: 0 auto;
+
+}
+
+.section6-2 .box .left {
+    max-width: 590px;
+    min-height: 459px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+
+}
+
+
+
+.section6-2 .box .left img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} 

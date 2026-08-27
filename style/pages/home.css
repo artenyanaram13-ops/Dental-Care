@@ -1,0 +1,64 @@
+@import url(/style/sections/header.css);
+@import url(/style/main.css);
+@import url(/style/media/pages/home.css);
+
+
+body {
+    background-color: var(--light-gray);
+}
+
+.hero {
+background-image: url(/images/Banner1.png);
+}
+
+.menu{
+    width: 316px;
+    height: 56px;
+    background-color: aqua;
+ padding: 10px;
+    position: sticky;
+    top: 90%;
+    background-color: var(--white);
+    z-index: 99;
+    margin: 0 auto;
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+  .menu img{
+    width: 24px;
+    height: 20px;
+  }                 
+.section3 .box{
+    
+    background-color:  rgba(255, 255, 255, 0.514);
+    border: 2px solid var(white);
+    border-radius: 30px;
+
+}
+.section3 .box{
+    height: 468px ;
+}
+.section3 .box .right  {
+    width: 100%;
+    height: 100%;
+
+    gap: 64px;
+        padding: 32px;
+}
+.section3 .box .left {
+    width: 100%;
+    height: 100%;                   
+
+ 
+}
+
+
+
+
+
+
+
+
+ 

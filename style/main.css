@@ -1,0 +1,177 @@
+@import url(sections/header.css);
+@import url(/style/sections/banner.css);
+@import url(/style/sections/slider.css);
+@import url(sections/footer.css);
+@import url(sections/cta.css);
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ita    l,wght@0,100..900;1,100..900&display=swap');
+@import url(/style/sections/iframe.css);
+@import url(/style/sections/contenier.css);
+@import url(/style/sections/section10.css);
+@import url(/style/sections/section2.css);
+@import url(/style/sections/section3.css);
+@import url(/style/sections/section4.css);
+@import url(/style/sections/section5.css);
+@import url(/style/sections/section6.css);
+@import url(/style/sections/section7.css);
+@import url(/style/sections/section8.css);
+@import url(/style/sections/section6-2.css);
+@import url(/style/sections/section5-2.css);
+@import url(/style/sections/FAQ.css);
+@import url(/style/media/main.css);
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+:root {
+  --blue: #1BA2BB;
+  --pure-yellow: #FBFFA1;
+  --white: #ffffff;
+  --black: #222222;
+  --light-gray: #f1f2f2;
+  --gray: #666666;
+}
+
+
+a {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--white);
+}
+
+
+h1 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 69px;
+  line-height: 120%;
+}
+
+h2 {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+
+
+}
+
+li {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+
+}
+
+h3 {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+h4 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+h5 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.text {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%
+}
+
+.text-big {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: xx-large;
+  line-height: 140%;
+
+}
+
+h6 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.h6 {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.btn {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 16px 24px;
+  outline: 5px solid;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn1 {
+  color: var(--black);
+  background-color: var(--white);
+  outline-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn2 {
+  color: var(--white);
+  background-color: var(--blue);
+  outline-color: rgba(27, 163, 187, 0.2);
+}
+
+.btn3 {
+  color: var(--black);
+  background-color: var(--pure-yellow);
+  outline-color: rgba(255, 255, 255, 0.2);
+}

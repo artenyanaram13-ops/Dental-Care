@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url(/style/pages/home.css);
+
+.header {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+    z-index: 99;
+
+}
+.header .box nav a:hover{
+    color: var(--blue);
+}
+.header .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .box nav a {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--black);
+    transition:  0.2s ease;
+}
+
+.header .box .nav {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.header .box nav {
+    display: flex;
+    gap: 24px;
+}

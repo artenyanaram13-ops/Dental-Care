@@ -1,0 +1,51 @@
+@import url(/style//media/sections/banner.css);
+@import url(/style//media/sections/contenier.css);
+@import url(/style//media/sections/cta.css);
+@import url(/style//media/sections/FAQ.css);
+@import url(/style//media/sections/footer.css);
+@import url(/style//media/sections/header.css);
+@import url(/style//media/sections/iframe.css);
+@import url(/style//media/sections/section2.css);
+@import url(/style//media/sections/section3.css);
+@import url(/style//media/sections/section4.css);
+@import url(/style//media/sections/section5-2.css);
+@import url(/style//media/sections/section5.css);
+@import url(/style//media/sections/sectio6-2.css);
+@import url(/style//media/sections/section6.css);
+@import url(/style//media/sections/section7.css);
+@import url(/style//media/sections/section8.css);
+@import url(/style//media/sections/section9.css);
+@import url(/style//media/sections/section10.css);
+@import url(/style//media/sections/slider.css);
+
+
+@media (max-width:1024px) {
+    h1{
+            font-size: 69px;
+            
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size:e  ;
+    }
+    .text{
+        font-size: 18px;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 768px) {
+
+} 
+
+
+
+@media (max-width:480px) {
+    
+}

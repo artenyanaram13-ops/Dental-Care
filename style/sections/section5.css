@@ -1,0 +1,44 @@
+
+ 
+
+.section5 {
+    padding: 20px;
+    gap: 20px;
+}
+
+.section5 .box {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.section5 .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+
+.section5 .box .card {
+    max-width: 457px;
+    min-height: 486px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+    /* background-color: var(--light-gray); */
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 20px;
+    gap: 20px;
+}
+
+ .section5 .box .card  .img{
+    background-color: var(--blue);
+} 

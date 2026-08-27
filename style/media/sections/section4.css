@@ -1,0 +1,25 @@
+@media (max-width: 1024px){
+.section4{
+    width: 100%;
+    height: 100%;
+}
+
+
+.section4 .box{
+    width: 100%;
+
+
+}
+}
+
+@media (max-width: 480px){
+
+    
+    .section4 .cards {
+        display: block;
+        
+    }
+    .section4 .box .card{
+        max-width: 100%;
+    }
+}
